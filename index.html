@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;700&display=swap" />
+        <title>Document</title>
+
+        <link href="dist/style.css" rel="stylesheet" />
+        <!-- Include your custom CSS here -->
+    </head>
+    <body class="">
+        <div class="relative">
+            <div
+                class="w-10/12 h-[40rem] absolute right-0 top-0 bg-gradient-to-l from-teal-600 to-white"></div>
+
+            <nav class="p-6 shadow-md relative">
+                <div
+                    class="container mx-auto flex items-center justify-between flex-wrap">
+                    <div class="flex items-center flex-shrink-0 w-[18%] mr-6">
+                        <span
+                            class="font-semibold text-xl tracking-tight text-neutral-50 lg:ps-10"
+                            >اللــوقو
+                        </span>
+                    </div>
+                    <div class="block lg:hidden">
+                        <button
+                            class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-700 hover:border-white rounded-e-xl"
+                            id="btn-nav">
+                            <svg
+                                class="fill-current h-3 w-3"
+                                viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>Menu</title>
+                                <path
+                                    d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div
+                        class="w-full block flex-grow lg:flex lg:items-center lg:w-auto overflow-hidden lg:h-full h-0 transition"
+                        id="nav-section">
+                        <div class="text-sm lg:flex-grow">
+                            <a
+                                href="#responsive-header"
+                                class="relative mt-4 inline-block lg:mt-0 text-neutral-800 text-lg hover:text-neutral-800 lg:mr-8 mr-6 after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-right">
+                                الرئيسية
+                            </a>
+                            <a
+                                href="#responsive-header"
+                                class="relative block mt-4 lg:inline-block lg:mt-0 text-neutral-800 hover:text-neutral-800 text-lg lg:mr-12 mr-4 after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-right">
+                                عن النظام
+                            </a>
+                            <a
+                                href="#responsive-header"
+                                class="relative w-fit mt-4 inline-block lg:mt-0 text-neutral-800 hover:text-neutral-800 text-lg lg:mr-12 mr-4 after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-right pb-8 lg:pb-0">
+                                الأسعار والباقات
+                            </a>
+                        </div>
+                        <div>
+                            <a
+                                href="#_"
+                                class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-teal-600 rounded hover:bg-teal-600 group border-white">
+                                <span
+                                    class="w-48 h-48 rounded rotate-[-40deg] bg-[#f9be09] absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                                <span
+                                    class="relative w-full text-left text-white transition-colors duration-300 ease-in-out group-hover:text-black">
+                                    إتصل بنا
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <header class="relative">
+                <div class="container mx-auto lg:flex items-center">
+                    <div
+                        class="flex flex-col items-start justify-center py-16 ps-4 lg:ps-16">
+                        <h1 class="text-4xl py-2 text-black lg:text-white">
+                            نظام المصابغ الأسهل
+                            <span class="text-[#f9be09]">والأسرع</span>
+                        </h1>
+                        <p
+                            class="lg:w-8/12 leading-8 pb-6 text-black lg:text-white py-6">
+                            نقدم لك برنامج نقاط بيع للمغاسل يحفظ بياناتك
+                            ويعالجها بكل سهولة، مع منظومة تقنية متكاملة تدعم
+                            الفوترة الإلكترونية وتقدم الإحصائيات التي تساعدك في
+                            تجارتك.
+                        </p>
+                        <a
+                            href="#_"
+                            class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group">
+                            <span
+                                class="w-48 h-48 rounded rotate-[-40deg] bg-[#f9be09] absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                            <span
+                                class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-teal-50"
+                                >جرب معنا مجانا
+                            </span>
+                        </a>
+                    </div>
+                    <div
+                        class="flex items-center justify-center h-full lg:py-20 lg:pe-20 px-4 relative animate-upDown">
+                        <div>
+                            <img
+                                class="absolute w-32 top-12 left-16 opacity-10"
+                                src="imgs/shapes.svg"
+                                width="64"
+                                alt="" />
+                            <img
+                                class="w-full relative"
+                                src="./imgs/mockup.png"
+                                width="300"
+                                alt="" />
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <main class="overflow-hidden">
+            <section class="py-16">
+                <div class="container mx-auto">
+                    <div class="flex flex-wrap -mx-4">
+                        <div class="w-full px-4 py-12">
+                            <div
+                                class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
+                                <span
+                                    class="font-semibold text-lg text-primary block">
+                                    عن النظام
+                                </span>
+                                <h2
+                                    class="md:text-[40px] text-dark mb-4 h-14 mt-4 max-w-sm bg-gradient-to-br from-gray-300 via-teal-600 to-gray-300 bg-clip-text text-center text-4xl font-extrabold text-transparent sm:max-w-4xl sm:text-6xl flex items-center justify-center">
+                                    بماذا يتميز نظامنا
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="grid lg:grid-cols-3 2xl:grid-cols-4 grid-cols-1 gap-10 antialiased">
+                        <article
+                            class="flex flex-col shadow-xl hover:shadow-2xl mx-auto max-w-sm bg-white py-16 px-12 border-neutral-900 transform duration-500 hover:-translate-y-2 cursor-pointer max-h-190 rounded-md">
+                            <h2 class="font-bold mb-5 text-teal-600">
+                                دعم فني مجاني
+                            </h2>
+                            <p class="text-sm leading-relaxed text-neutral-800">
+                                احصل على دعم فني مجاني من فريق مكرَّس للرد على
+                                استفساراتكم ومساعدتكم في حال واجهتم أي مشكلات؛
+                                عبر التواصل من خلال الهاتف أو البريد الإلكتروني
+                                على مدار اليوم، وذلك لضمان حصولكم على تجربة
+                                مثالية عند استخدام نظام دفترة.
+                            </p>
+                        </article>
+
+                        <article
+                            class="flex flex-col shadow-xl hover:shadow-2xl mx-auto max-w-sm bg-white py-16 px-12 border-neutral-900 transform duration-500 hover:-translate-y-2 cursor-pointer mt-0 max-h-190 rounded-md">
+                            <h2 class="font-bold mb-5 text-teal-600">
+                                واجهة سهلة الاستخدام
+                            </h2>
+                            <p class="text-sm leading-relaxed text-neutral-800">
+                                أدِر أعمالك بسهولة مع العديد من الخصائص والأدوات
+                                المضمّنة في واجهة سهلة الاستخدام بخطوات بسيطة،
+                                إذ لا تحتاج إلى امتلاك معرفة عميقة بأنظمة تخطيط
+                                الموارد المؤسسية أو طرق المحاسبة المعقدة من أجل
+                                العمل على أي من تطبيقات النظام.
+                            </p>
+                        </article>
+
+                        <article
+                            class="flex flex-col shadow-xl hover:shadow-2xl mx-auto max-w-sm bg-white py-16 px-12 border-neutral-900 transform duration-500 hover:-translate-y-2 cursor-pointer max-h-190 rounded-md">
+                            <h2 class="font-bold mb-5 text-teal-600">
+                                تحديثات دورية مجانًا
+                            </h2>
+                            <p class="text-sm leading-relaxed text-neutral-800">
+                                يعمل دفترة باستمرار على تطوير النظام بأكمله
+                                وتحديث تطبيقاته وميزاته لمواكبة متطلبات الأعمال
+                                بما في ذلك إضافة الخصائص والأدوات الجديدة التي
+                                من شأنها تسهيل إدارة أعمالك على نحو فعال، فيما
+                                ستحصل على كل هذه التحديثات مجانًا.
+                            </p>
+                        </article>
+                        <article
+                            class="flex flex-col shadow-xl hover:shadow-2xl mx-auto max-w-sm bg-white py-16 px-12 border-neutral-900 transform duration-500 hover:-translate-y-2 cursor-pointer mt-0 max-h-190 rounded-md">
+                            <h2 class="font-bold mb-5 text-teal-600">
+                                الأمان والحماية
+                            </h2>
+                            <p class="text-sm leading-relaxed text-neutral-800">
+                                SSL 256 bit مع عدة طبقات من الحماية، إلى جانب
+                                وجود الخوادم في قارتين مختلفتين مع إجراءات سلامة
+                                إضافية لمواقعها وقيود قوية على صلاحية الوصول إلى
+                                البيانات، بالإضافة إلى عمليات نسخ احتياطي دورية.
+                            </p>
+                        </article>
+                        <article
+                            class="flex flex-col shadow-xl hover:shadow-2xl mx-auto max-w-sm bg-white py-16 px-12 border-neutral-900 transform duration-500 hover:-translate-y-2 cursor-pointer max-h-190 rounded-md">
+                            <h2 class="font-bold mb-5 text-teal-600">
+                                تحديثات نظام كامل لتسليم
+                            </h2>
+                            <p class="text-sm leading-relaxed text-neutral-800">
+                                دعم نظام فتح وإغلاق الصناديق علي مــستـوي
+                                المستخدم مع إصدار تقارير تفــصيلية وإجــمالية
+                                يتم من خلالها اغلاق اليومية مع الكاشير
+                            </p>
+                        </article>
+                        <article
+                            class="flex flex-col shadow-xl hover:shadow-2xl mx-auto max-w-sm bg-white py-16 px-12 border-neutral-900 transform duration-500 hover:-translate-y-2 cursor-pointer mt-0 max-h-190 rounded-md">
+                            <h2 class="font-bold mb-5 text-teal-600">
+                                تقارير غير محدودة
+                            </h2>
+                            <p class="text-sm leading-relaxed text-neutral-800">
+                                يعمل نظام التقارير لدينا على إنشاء تقارير شاملة
+                                تستند إلى البيانات الموجود لاتخاذ القرارات
+                                المناسبة
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!-- ====== Pricing Section Start -->
+            <section
+                class="bg-white pt-6 lg:pt-12 pb-12 lg:pb-[90px] relative z-20 overflow-hidden">
+                <div class="container mx-auto">
+                    <div class="flex flex-wrap -mx-4">
+                        <div class="w-full px-4">
+                            <div
+                                class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
+                                <span
+                                    class="font-semibold text-lg text-primary mb-2 block">
+                                    البــاقات
+                                </span>
+                                <h2
+                                    class="md:text-[40px] text-dark mb-4 h-14 mt-4 max-w-sm bg-gradient-to-br from-gray-500 via-teal-500 to-gray-500 bg-clip-text text-center text-4xl font-extrabold text-transparent sm:max-w-4xl sm:text-6xl flex items-center justify-center">
+                                    الخطط واﻷسعار
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap justify-center -mx-4">
+                        <div
+                            class="w-full overflow-hidden md:w-1/2 lg:w-1/3 px-4 relative">
+                            <div
+                                class="bg-white rounded-xl relative z-10 overflow-hidden shadow-xl border-primary border-opacity-20 shadow-pricing py-10 px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-10">
+                                <span
+                                    class="text-primary font-semibold text-lg block mb-4">
+                                    الخطة الأساسية
+                                </span>
+                                <h2
+                                    class="font-bold text-dark mb-5 text-[42px] text-teal-600">
+                                    $59
+                                    <span
+                                        class="text-base text-body-color font-medium">
+                                        / سنة
+                                    </span>
+                                </h2>
+                                <p
+                                    class="text-base text-body-color pb-8 mb-8 border-[#F2F2F2]">
+                                    هنا يتم وضع وص مختصر للخطة
+                                </p>
+                                <div class="mb-7">
+                                    <ul>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a
+                                    href="#_"
+                                    class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-teal-600 rounded hover:bg-bg-teal-600 group border-white">
+                                    <span
+                                        class="w-48 h-48 rounded rotate-[-40deg] bg-[#f9be09] absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                                    <span
+                                        class="relative w-full text-left text-white transition-colors duration-300 ease-in-out group-hover:text-black">
+                                        إختر الأساسية</span
+                                    >
+                                </a>
+                                <div>
+                                    <span
+                                        class="absolute left-0 rotate-180 top-7 z-[-1]">
+                                        <img src="imgs/min_circle.svg" alt="" />
+                                    </span>
+                                    <span class="absolute left-4 top-4 z-[-1]">
+                                        <img
+                                            src="imgs/min_pointes.svg"
+                                            alt="" />
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full overflow-hidden md:w-1/2 lg:w-1/3 px-4 relative">
+                            <div
+                                class="bg-white rounded-xl relative z-10 overflow-hidden shadow-xl border-primary border-opacity-20 shadow-pricing py-10 px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-10">
+                                <span
+                                    class="text-primary font-semibold text-lg block mb-4">
+                                    الخطة الأساسية
+                                </span>
+                                <h2
+                                    class="font-bold text-dark mb-5 text-[42px] text-teal-600">
+                                    $124
+                                    <span
+                                        class="text-base text-body-color font-medium">
+                                        / سنة
+                                    </span>
+                                </h2>
+                                <p
+                                    class="text-base text-body-color pb-8 mb-8 border-[#F2F2F2]">
+                                    هنا يتم وضع وص مختصر للخطة
+                                </p>
+                                <div class="mb-7">
+                                    <ul>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a
+                                    href="#_"
+                                    class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-[#f9be09] rounded hover:bg-bg-teal-600 group border-white">
+                                    <span
+                                        class="w-48 h-48 rounded rotate-[-40deg] bg-teal-600 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                                    <span
+                                        class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-white">
+                                        إختر المتقدمة</span
+                                    >
+                                </a>
+                                <div>
+                                    <span
+                                        class="absolute left-0 rotate-180 top-7 z-[-1]">
+                                        <img src="imgs/min_circle.svg" alt="" />
+                                    </span>
+                                    <span class="absolute left-4 top-4 z-[-1]">
+                                        <img
+                                            src="imgs/min_pointes.svg"
+                                            alt="" />
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full overflow-hidden md:w-1/2 lg:w-1/3 px-4 relative">
+                            <div
+                                class="bg-white rounded-xl relative z-10 overflow-hidden shadow-xl border-primary border-opacity-20 shadow-pricing py-10 px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-10">
+                                <span
+                                    class="text-primary font-semibold text-lg block mb-4">
+                                    الخطة الإحترافية
+                                </span>
+                                <h2
+                                    class="font-bold text-dark mb-5 text-[42px] text-teal-600">
+                                    $220
+                                    <span
+                                        class="text-base text-body-color font-medium">
+                                        / سنة
+                                    </span>
+                                </h2>
+                                <p
+                                    class="text-base text-body-color pb-8 mb-8 border-[#F2F2F2]">
+                                    هنا يتم وضع وص مختصر للخطة
+                                </p>
+                                <div class="mb-7">
+                                    <ul>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                        <li
+                                            class="py-3 px-2 border-t hover:bg-teal-600 hover:text-white transition">
+                                            ميزة
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a
+                                    href="#_"
+                                    class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-teal-600 rounded hover:bg-bg-teal-600 group border-white">
+                                    <span
+                                        class="w-48 h-48 rounded rotate-[-40deg] bg-[#f9be09] absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                                    <span
+                                        class="relative w-full text-left text-white transition-colors duration-300 ease-in-out group-hover:text-black">
+                                        إختر الإحترافية</span
+                                    >
+                                </a>
+                                <div>
+                                    <span
+                                        class="absolute left-0 rotate-180 top-7 z-[-1]">
+                                        <img src="imgs/min_circle.svg" alt="" />
+                                    </span>
+                                    <span class="absolute left-4 top-4 z-[-1]">
+                                        <img
+                                            src="imgs/min_pointes.svg"
+                                            alt="" />
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="mb-12 flex w-full flex-col text-center">
+                <div class="flex flex-wrap -mx-4">
+                    <div class="w-full px-4">
+                        <div
+                            class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
+                            <span class="text-base text-body-color">
+                                اتصل بنا
+                            </span>
+                            <h2
+                                class="md:text-[40px] text-dark mb-4 h-14 mt-4max-w-sm bg-gradient-to-br from-gray-500 via-teal-500 to-gray-500 bg-clip-text text-center text-4xl font-extrabold text-transparent sm:max-w-4xl sm:text-6xl flex items-center justify-center">
+                                تواصل معنا اليوم!
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section
+                class="body-font relative right-0 top-0 bg-gradient-to-t from-teal-600 to-white">
+                <div class="container mx-auto px-5 pt-24 pb-10">
+                    <div class="">
+                        <div class="mx-auto md:w-2/3 lg:w-1/2">
+                            <!-- form -->
+                            <form class="-m-2 flex flex-wrap" action="">
+                                <div class="w-1/2 p-2">
+                                    <div class="relative">
+                                        <input
+                                            type="text"
+                                            id="name"
+                                            name="name"
+                                            class="peer w-full rounded border bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-teal-600 focus:ring-2"
+                                            placeholder="الإسم" />
+                                        <label
+                                            for="name"
+                                            class="absolute right-3 -top-6 bg-transparent text-sm leading-7 text-tborder-teal-600 transition-all peer-placeholder-shown:right-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:right-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500"
+                                            >الإسم</label
+                                        >
+                                    </div>
+                                </div>
+                                <div class="w-1/2 p-2">
+                                    <div class="relative">
+                                        <input
+                                            type="email"
+                                            id="email"
+                                            name="email"
+                                            class="peer w-full rounded border bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-teal-600 focus:ring-2"
+                                            placeholder="الإيميل" />
+                                        <label
+                                            for="email"
+                                            class="absolute right-3 -top-6 bg-transparent text-sm leading-7 text-tborder-teal-600 transition-all peer-placeholder-shown:right-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:right-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500"
+                                            >الإيميل</label
+                                        >
+                                    </div>
+                                </div>
+                                <div class="mt-4 w-full p-2">
+                                    <div class="relative">
+                                        <textarea
+                                            id="message"
+                                            name="message"
+                                            class="peer h-32 w-full resize-none rounded border bg-opacity-40 py-1 px-3 text-base leading-6 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-teal-600 focus:ring-2"
+                                            placeholder="Message"></textarea>
+                                        <label
+                                            for="message"
+                                            class="absolute right-3 -top-6 bg-transparent text-sm leading-7 text-tborder-teal-600 transition-all peer-placeholder-shown:right-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500"
+                                            >رسالة</label
+                                        >
+                                    </div>
+                                </div>
+                                <div class="w-full p-2">
+                                    <a
+                                        href="#_"
+                                        class="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-teal-50 text-teal-600 inline-block">
+                                        <span
+                                            class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-teal-600 group-hover:h-full opacity-90"></span>
+                                        <span
+                                            class="relative group-hover:text-white">
+                                            إرســــال</span
+                                        >
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <footer class="">
+                    <div
+                        class="mt-8 pb-8 w-full border-t border-neutral-300 p-2 pt-8 text-center text-white">
+                        جميع الحقوق محفوظة
+                        <span class=""> 2023 </span>
+                    </div>
+                </footer>
+            </section>
+        </main>
+    </body>
+    <script>
+        document.getElementById("btn-nav").addEventListener("click", () => {
+            document.getElementById("nav-section").classList.toggle("h-fit");
+        });
+    </script>
+</html>
